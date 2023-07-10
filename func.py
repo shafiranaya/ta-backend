@@ -524,7 +524,7 @@ def get_fraud_insight(df):
 # # TODO: train based on the best experiment
 # train_fasterrisk_with_smote("data_e_smote_train")
 
-train_fasterrisk_with_smote("final_data_train")
+# train_fasterrisk_with_smote("final_data_train")
 
 # # Load object from the pickle file
 # with open("model/model.pkl", "rb") as f:

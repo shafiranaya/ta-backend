@@ -13,7 +13,8 @@ def normalize_X(X):
     X_norm = np.linalg.norm(X-X_mean, axis=0)
     scaled_feature_indices = np.where(X_norm >= 1e-9)[0]
     X_normalized = X-X_mean
-    X_normalized[:, scaled_feature_indices] = X_normalized[:, scaled_feature_indices]/X_norm[[scaled_feature_indices]]
+    X_normalized[:, scaled_feature_indices] = X_normalized[:, scaled_feature_indices]/X_norm[scaled_feature_indices]
+    # X_normalized[:, scaled_feature_indices] = X_normalized[:, scaled_feature_indices]/X_norm[[scaled_feature_indices]]
     return X_normalized, X_mean, X_norm, scaled_feature_indices
 
 def compute_logisticLoss_from_yXB(yXB):
