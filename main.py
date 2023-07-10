@@ -14,6 +14,8 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://tabackend-1-e5892165.deta.app/",
+    "https://ta-backend-git-master-shafiranaya.vercel.app/"
 ]
 
 app.add_middleware(
