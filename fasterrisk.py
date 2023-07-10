@@ -1,5 +1,4 @@
 import numpy as np
-# import sklearn.metrics
 
 from sparseBeamSearch import sparseLogRegModel
 from sparseDiversePool import sparseDiversePoolLogRegModel
