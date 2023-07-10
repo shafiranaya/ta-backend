@@ -74,9 +74,6 @@ async def get_summary(model_index: int):
     # Validate the model index
     if model_index < 1 or model_index > 5:
         return {"error": "Invalid model index"}
-
-    file_path = "dataset/" + "data_e" + "_test.csv"
-    test_data = read_data(file_path)
     # X_test, y_test = preprocess_data(test_data, 'label')
     # print("X_test",X_test.head())
     # Perform prediction on the paginated data
