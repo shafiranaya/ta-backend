@@ -1,2 +1,10 @@
 tests
 docs
+test_insight.py
+test_mapping.py
+dataset/fix_email_test.csv
+dataset/fix_email_train.csv
+dataset/fix_email_val.csv
+dataset/fix_data_test.csv
+dataset/fix_data_test.csv
+dataset/fix_data_test.csv
